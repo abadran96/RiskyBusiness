@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1506643556 source:g:\my documents\comp345\part2\src\maploader.cpp
+	"MapLoader.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<iostream>
+	<sstream>
+
+1506628286 g:\my documents\comp345\part2\include\maploader.h
+	<iostream>
+	<fstream>
+	<string>
+
