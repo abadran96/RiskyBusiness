@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1506652791 source:/home/louis/Documents/C++/wam/crystalCastle/main.cpp
+	<iostream>
+	"deck.h"
+	<vector>
+
+1506629356 /home/louis/Documents/C++/wam/crystalCastle/happo.h
+
+1506629371 source:/home/louis/Documents/C++/wam/crystalCastle/happo.cpp
+	"happo.h"
+	<iostream>
+
+1506652719 source:/home/louis/Documents/C++/wam/crystalCastle/deck.cpp
+	"deck.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+
+1506652395 /home/louis/Documents/C++/wam/crystalCastle/deck.h
+	<vector>
+
+1506652792 source:/home/louis/Downloads/COMP345-D-2/27772181-ay_badra/programming_assignment-1/2017-Sep-28-23h25m22s773ms/27772181_A1/crystalCastle/main.cpp
+	<iostream>
+	"deck.h"
+	<vector>
+
+1506652396 /home/louis/Downloads/COMP345-D-2/27772181-ay_badra/programming_assignment-1/2017-Sep-28-23h25m22s773ms/27772181_A1/crystalCastle/deck.h
+	<vector>
+
+1508612017 source:/home/louis/Downloads/COMP345-D-2/27772181-ay_badra/programming_assignment-1/2017-Sep-28-23h25m22s773ms/27772181_A1/crystalCastle/deck.cpp
+	"deck.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+
