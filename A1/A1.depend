@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1506364171 source:/home/louis/Documents/C++/A1/Cake.cpp
+	"Cake.h"
+	<iostream>
+
+1506550912 /home/louis/Documents/C++/A1/Cake.h
+	<vector>
+
+1506556371 source:/home/louis/Documents/C++/A1/main.cpp
+	"deck.h"
+	"hand.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+
+1506557752 source:/home/louis/Documents/C++/A1/deck.cpp
+	"deck.h"
+	<vector>
+	<iostream>
+
+1506557785 /home/louis/Documents/C++/A1/deck.h
+	<vector>
+
+1506556684 /home/louis/Documents/C++/A1/include/hand.h
+	<vector>
+
+1506556684 /home/louis/Documents/C++/A1/hand.h
+	<vector>
+
