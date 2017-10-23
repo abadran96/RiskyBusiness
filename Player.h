@@ -26,6 +26,7 @@ public:
 
       void playerTurn();
       void addCountry(Country* c);
+      void removeCountry(Country* country);
       int get_number_of_countries() {return number_of_countries; }
 
     private:
