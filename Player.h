@@ -1,41 +1,38 @@
-#ifndef PLAYER_H
-#define PLAYER_H
-#include <vector>
-#include "Map.h"
+#ifndef Player_hpp
+#define Player_hpp
+#include "Dice.hpp"
+#include "deck.hpp"
+#include "Hand.hpp"
+#include "Country.h"
 
 
-using namespace std;
-
+#include <stdio.h>
 class Player
 {
 public:
-
     Player();
-	Player(int);
-
-
-   std::vector <Country*> getCountries() { return countries; }
-	int get_player_id();
-
-
-   //   Dice:: Dice();
-
-      void reinforce();
-      void attack();
-      void fortify();
-
-      void playerTurn();
-      void addCountry(Country* c);
-      void removeCountry(Country* country);
-      int get_number_of_countries() {return number_of_countries; }
-
-    private:
+    Player(int);
+    std::vector <Country*> getCountries() { return theircountries; }
+    int get_player_id();
+    void reinforce();
+    void attack();
+    void fortify();
+    
+    void playerTurn();
+    void addCountry(Country* c);
+    int get_number_of_countries() {return number_of_countries; }
+    void setDeck(deck* d);
+    void setHand(Hand* h);
+    void setDice(Dice* d);
+    
+private:
     int player_id;
     int number_of_countries;
-    std::vector <Country*> countries;
-    //std::vector<Continent*> continents;
-    // std::vector<Deck> hand;
-
+    std::vector <Country*> theircountries;
+    Hand* theirhand;
+    Dice* theirdice;
+    deck* mainDeck;
+    
 };
 
-#endif // PLAYER_H
+#endif /* Player_hpp */
