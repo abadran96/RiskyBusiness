@@ -1,0 +1,19 @@
+    int countries_owned = pcountries.size();
+    for(int i=0; i<countries_owned; i++)
+    {
+        if(pcountries.at(i) == country)
+        {
+            index = i;
+        }
+    }
+    if(index == -1)
+    {
+        std::cout << "You do not own that country" << std::endl;
+    }
+    //remove country
+    else
+    {
+        pcountries.erase(pcountries.begin()+index);
+        std::cout << "Country was erased." << std::endl;
+
+    }
